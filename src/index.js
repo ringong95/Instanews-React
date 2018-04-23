@@ -8,9 +8,6 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 const initialState = {
-    weeks: [],
-    posts: [],
-    postFilter: 'React',
   };
   
 const store = storeFactory(initialState);

@@ -1,11 +1,10 @@
 import React from 'react';
 
-const Articles = ({key, abstract, image}) =>{
-    console.log(image)
+const Articles = ({url, abstract, image}) =>{
     return (
             <li>
-                <a >
-                <div className="article" style={{backgroundImage: `url(${image})`}}>
+                <a href={url} target="_blank" >
+                <div className="article" style={{backgroundImage: `url(${image[4].url})`}}>
                     <div className="abstractpart"> 
                         <div className="gradient"> 
                         <p> {abstract}</p>
