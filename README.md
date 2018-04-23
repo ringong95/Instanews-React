@@ -10,7 +10,9 @@ I reacted an old project i made while learning HTML, CSS and Javascript using Re
 * Redux
 * Ajax/JSON
 * Git/Github
+* AWS
 
 # What did I learn?
 During this project, I learned how to incorporate AJAX requests into React using Redux-Thunk. It was difficult to incorporate the requests in a clean way but looking at past projects for a concise example i think i have a decent solution.
 The addition of React-Create-App made this project much easier to start and gave with it hotloading so i didnt need to manually refresh it.
+Getting it hosted in AWS S3 was a challange but by reading the documentation i got through it.
